@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+#root {
+  padding: 30px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navBarItem:hover {
+  text-decoration-line: underline;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navBarItem:visited {
+  text-decoration-line: underline;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navBarItem {
+  text-decoration-line: none;
+  padding-bottom: 20px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+hr {
+  border: none;
+  border-top: 1px solid #979797;
+  margin: 20px 0;
+}
+
+button[type="submit"] {
+  background-color: rgb(157, 156, 166);
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+button:hover {
+  background-color: rgb(99, 97, 110);
+}
+
+input,
+select {
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  padding: 7px 9.5px 9px 9.5px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.formItem {
+  font-family: "Open Sans", sans-serif;
+  background: #ffffff;
+  border-radius: 4px;
+  outline: none;
+  width: 100%;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.apptFormItemOne {
+  font-size: 16px;
+  color: black;
+  padding-left: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-stretch: expanded;
+}
+
+.tile {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.tile-container {
+  margin-bottom: 20px;
 }

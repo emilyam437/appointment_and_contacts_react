@@ -21,3 +21,15 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/__mocks__
+/__tests__
+
+/src/App.test.js
+/src/http-request.js
+/src/language_spoken.js
+/src/languageCodes.js
+babel.config.js
+
+
+
