@@ -9,7 +9,7 @@ function App() {
 
 // Keep track of the contacts
 
-let [contacts, setContacts] = useState([{name: 'Emily', phone: '1234567890', email: 'emily@emily.com'}]);
+let [contacts, setContacts] = useState([{name: 'Contact name', phone: '1234567890', email: 'name@mail.com'}]);
 
 // Keep track of appointments
 
